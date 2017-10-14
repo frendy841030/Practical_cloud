@@ -3,33 +3,41 @@
 
 /* DivTable.com */
 .divTable{
+	font-family: "Lucida Grande"; 
 	display: table;
 	width: 100%;
 	border: 1px #3D3A3A ;
 }
 .divTableRow {
+	font-family: "Lucida Grande"; 
 	display: table-row;
 }
 .divTableHeading {
+	font-family: "Lucida Grande"; 
 	background-color: #EEE;
 	display: table-header-group;
 }
 .divTableCell, .divTableHead {
+	font-family: "Lucida Grande"; 
+	background-color : #ADC3F5 ;
 	border: 1px solid #999999;
 	display: table-cell;
 	padding: 3px 10px;
 }
 .divTableHeading {
+	font-family: "Lucida Grande"; 
 	background-color: #EEE;
 	display: table-header-group;
 	font-weight: bold;
 }
 .divTableFoot {
+	font-family: "Lucida Grande"; 
 	background-color: #EEE;
 	display: table-footer-group;
 	font-weight: bold;
 }
 .divTableBody {
+	font-family: "Lucida Grande"; 
 	display: table-row-group;
 }
 
@@ -39,6 +47,7 @@ input{
 
 
 h1 {
+	font-family: "Lucida Grande"; 
 	color :#C80A0D ;
 	text-align: center ;
 }

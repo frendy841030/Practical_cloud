@@ -10,6 +10,7 @@ function myFunction(){
 		dataType: 'json',
 		
     	success: function (data) { 
+			document.getElementById("change_h1").innerHTML = "The PosId You Search Is " + document.getElementById("search_input").value ;
 			$.each( data, function(index, element) {
 				var divRow = $("<div>").addClass("divTableRow");
 				var divPostId = $("<div>").addClass("divTableCell").html(element.postId) ;
